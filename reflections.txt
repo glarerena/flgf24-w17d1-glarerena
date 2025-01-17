@@ -1,0 +1,48 @@
+So for this assignment, I was unsure if we were supposed to do a 3 day rolling average with the weatherAPI,
+or if we was supposed to use the 6 months of historical data from our city.
+
+Then I seen where you posted it was the users choice Asha, so thank you for that.
+I have decided to do a mix of both.
+
+I seen a lot of the fellows struggling just to get an weatherAPI up and running, and pulling data from it.
+I did not. I had to use a different email account to be able to get a free trial of the weatherAPI, but that did not take long.
+This is the first time I can honestly say, that I used an API, and was not afraid of it at all. I felt confident in my skills, and
+thank you JTC for giving me the muscle memory to do this.
+
+/////////////////////////////////////////////////////////////////////////////////////////////////
+
+The six_months.py file is just what it says. My hometown, Danville, VA. It pull data everyday for the past 6 months.
+That is the largest amount of data I have ever pulled from an API so it took a few minutes. Then that got me going down a rabit hole 
+about how long the requests can take, computer power, and how you can actually write code to put the requests in blocks, or 
+single them out. So each time I work with an API I learn something new. 
+
+The code is written to wait a second between each request, so it does not overload the API.
+I saved the data into a CSV file.
+Then I got it to print out just some of the basic stats of the data.
+I used to be completely nervous to mess with API's, and now I don't feel like a pro or anything,
+but I find myself looking at things outside of class that interest me, and I do not shy away from API's.
+My father is a daytrader, and he uses the TastyTrade Platform, which has an API, if you have an account that 
+you can access. I took my father through the process of getting access to it, and I have written a few basic 
+scripts for my father using their API, so he can get personalized trader information sent to his cell phone. 
+
+////////////////////////////////////////////////////////////////////////////////////////////////
+
+And lastly the other file, learn.py collects data for the last 7 days for my hometown.
+Then it takes this history and makes a prediction about what tomorrow's temperature is going to be.
+It has 2 parts to the prediction process, where the most recent temperature gets 70 percent of the weight.
+Then the other 30 percent of the weight is given to a rolling 3 day average. 
+
+
+I did use AI for help with both of these code files.
+The lectures we received all week long were very informative.
+I have done a lot of reading this week.
+I have never attempted anything like this before on all of our assignments for this week.
+The studying of datasets, and scaling them, and splittling them into smaller sets, and predictions,
+this has been very challenging. 
+
+/////////////////////////////////////////////////////////////////////////////////////////////////
+
+Sources:
+https://medium.com/@maarten./developing-a-weather-model-with-machine-learning-in-python-ed1b741dc553
+https://cienciadedatos.net/documentos/py27-time-series-forecasting-python-scikitlearn.html
+
